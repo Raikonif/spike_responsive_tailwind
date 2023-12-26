@@ -1,0 +1,178 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Papanicolau",
+      "author": "Dr. Juan Perez",
+      "date": "18/11/2023",
+      "content": "Un Papanicolau normal significa que no hay células anormales presentes en el cuello uterino. Un Papanicolau anormal significa que se encontraron células anormales en el cuello uterino. Estas células anormales se denominan células precancerosas. Las células precancerosas no son cáncer, pero pueden convertirse en cáncer si no se tratan.",
+      "images": [
+        {
+          "id": 1,
+          "url": "https://picsum.photos/200/1200"
+        },
+        {
+          "id": 2,
+          "url": "https://picsum.photos/200/800"
+        },
+        {
+          "id": 3,
+          "url": "https://picsum.photos/200/1200"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Blood Pressure",
+      "author": "Dr. Maria Rodriguez",
+      "date": "22/11/2023",
+      "content": "Maintaining a healthy blood pressure is crucial for cardiovascular health. High blood pressure can lead to serious health issues, including heart disease and stroke.",
+      "images": [
+        {
+          "id": 4,
+          "url": "https://picsum.photos/200/1000"
+        },
+        {
+          "id": 5,
+          "url": "https://picsum.photos/200/900"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cholesterol Levels",
+      "author": "Dr. Laura Martinez",
+      "date": "25/11/2023",
+      "content": "Monitoring cholesterol levels is essential for heart health. High levels of LDL cholesterol (bad cholesterol) can increase the risk of heart disease.",
+      "images": [
+        {
+          "id": 6,
+          "url": "https://picsum.photos/200/1100"
+        },
+        {
+          "id": 7,
+          "url": "https://picsum.photos/200/1000"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Diabetes Management",
+      "author": "Dr. Carlos Sanchez",
+      "date": "28/11/2023",
+      "content": "Proper management of diabetes involves a combination of medication, diet, and lifestyle changes. Regular monitoring of blood sugar levels is crucial.",
+      "images": [
+        {
+          "id": 8,
+          "url": "https://picsum.photos/200/950"
+        },
+        {
+          "id": 9,
+          "url": "https://picsum.photos/200/1050"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Breast Self-Examination",
+      "author": "Dr. Sofia Lopez",
+      "date": "02/12/2023",
+      "content": "Regular breast self-examination is important for detecting any changes or abnormalities in the breast tissue. Early detection can improve the chances of successful treatment.",
+      "images": [
+        {
+          "id": 10,
+          "url": "https://picsum.photos/200/980"
+        },
+        {
+          "id": 11,
+          "url": "https://picsum.photos/200/1020"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Prostate Health",
+      "author": "Dr. Ricardo Gomez",
+      "date": "05/12/2023",
+      "content": "Men should be aware of their prostate health. Regular check-ups and screenings can help detect any issues early on.",
+      "images": [
+        {
+          "id": 12,
+          "url": "https://picsum.photos/200/1080"
+        },
+        {
+          "id": 13,
+          "url": "https://picsum.photos/200/970"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Healthy Eating Habits",
+      "author": "Nutritionist Maria Torres",
+      "date": "08/12/2023",
+      "content": "Maintaining healthy eating habits is key to overall well-being. A balanced diet provides the necessary nutrients for optimal body function.",
+      "images": [
+        {
+          "id": 14,
+          "url": "https://picsum.photos/200/1040"
+        },
+        {
+          "id": 15,
+          "url": "https://picsum.photos/200/990"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Exercise for Heart Health",
+      "author": "Fitness Expert Ana Ramirez",
+      "date": "12/12/2023",
+      "content": "Regular exercise is essential for maintaining a healthy heart. It helps improve cardiovascular fitness and reduces the risk of heart disease.",
+      "images": [
+        {
+          "id": 16,
+          "url": "https://picsum.photos/200/1070"
+        },
+        {
+          "id": 17,
+          "url": "https://picsum.photos/200/960"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mental Health Awareness",
+      "author": "Psychologist Elena Rodriguez",
+      "date": "15/12/2023",
+      "content": "Promoting mental health awareness is crucial for overall well-being. Taking care of mental health is as important as physical health.",
+      "images": [
+        {
+          "id": 18,
+          "url": "https://picsum.photos/200/1030"
+        },
+        {
+          "id": 19,
+          "url": "https://picsum.photos/200/980"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Sun Safety",
+      "author": "Dr. Javier Hernandez",
+      "date": "18/12/2023",
+      "content": "Practicing sun safety is essential to prevent skin damage and reduce the risk of skin cancer. Use sunscreen and protective clothing when exposed to the sun.",
+      "images": [
+        {
+          "id": 20,
+          "url": "https://picsum.photos/200/1000"
+        },
+        {
+          "id": 21,
+          "url": "https://picsum.photos/200/900"
+        }
+      ]
+    }
+  ]
+}
