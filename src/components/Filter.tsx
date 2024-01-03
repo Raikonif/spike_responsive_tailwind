@@ -6,7 +6,7 @@ function Filter() {
   };
 
   return (
-    <div className="m-1 p-3 mb-3 w-full justify-center">
+    <div className="m-1 mt-3 p-3 sm:mt-6 w-full justify-center">
       <select
         name="study"
         id="study-select"

@@ -30,5 +30,7 @@ const getArticlesFiltered = async (type: string): Promise<article[]> => {
 }
 
 export {
-    getArticles
+    getArticles,
+    getArticle,
+    getArticlesFiltered
 }

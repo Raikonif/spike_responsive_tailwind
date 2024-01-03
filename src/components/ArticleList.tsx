@@ -17,7 +17,7 @@ function ArticleList() {
   return (
     <ul className="mx-3 grid sm:grid-cols-2 lg:grid-cols-3">
       {articles.map((article: article) => (
-        <li className="mx-2">
+        <li className="mx-2" key={article.id}>
           <Article
             id={article.id}
             title={article.title}

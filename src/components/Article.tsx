@@ -9,7 +9,7 @@ function Article({ id, title, author, date, content, images }: article) {
   };
   return (
     <article
-      className="flex flex-col w-full border rounded-md my-4 shadow-xl p-4 pt-7 bg-white"
+      className="flex flex-col w-full border rounded-md my-4 shadow-xl p-4 pt-7 bg-white cursor-pointer"
       onClick={openArticle}
     >
       <h2 className="font-bold font-[Arial]">{title}</h2>
