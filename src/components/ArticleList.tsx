@@ -15,22 +15,20 @@ function ArticleList() {
   }, []);
 
   return (
-    <div className="m-2">
-      <ul>
-        {articles.map((article: article) => (
-          <li>
-            <Article
-              id={article.id}
-              title={article.title}
-              author={article.author}
-              content={article.content}
-              date={article.date}
-              images={article.images}
-            />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul className="mx-3 grid sm:grid-cols-2 lg:grid-cols-3">
+      {articles.map((article: article) => (
+        <li className="mx-2">
+          <Article
+            id={article.id}
+            title={article.title}
+            author={article.author}
+            content={article.content}
+            date={article.date}
+            images={article.images}
+          />
+        </li>
+      ))}
+    </ul>
   );
 }
 

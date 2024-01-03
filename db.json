@@ -19,7 +19,8 @@
           "id": 3,
           "url": "https://picsum.photos/200/1200"
         }
-      ]
+      ],
+      "type": "PAP"
     },
     {
       "id": 2,
@@ -36,7 +37,8 @@
           "id": 5,
           "url": "https://picsum.photos/200/900"
         }
-      ]
+      ],
+      "type": "histopathology"
     },
     {
       "id": 3,
@@ -53,7 +55,8 @@
           "id": 7,
           "url": "https://picsum.photos/200/1000"
         }
-      ]
+      ],
+      "type": "cithology"
     },
     {
       "id": 4,
@@ -70,7 +73,8 @@
           "id": 9,
           "url": "https://picsum.photos/200/1050"
         }
-      ]
+      ],
+      "type": "PAP"
     },
     {
       "id": 5,
@@ -87,7 +91,8 @@
           "id": 11,
           "url": "https://picsum.photos/200/1020"
         }
-      ]
+      ],
+      "type": "cithology"
     },
     {
       "id": 6,
@@ -104,7 +109,8 @@
           "id": 13,
           "url": "https://picsum.photos/200/970"
         }
-      ]
+      ],
+      "type": "histopathology"
     },
     {
       "id": 7,
@@ -121,7 +127,8 @@
           "id": 15,
           "url": "https://picsum.photos/200/990"
         }
-      ]
+      ],
+      "type": "cithology"
     },
     {
       "id": 8,
@@ -138,7 +145,8 @@
           "id": 17,
           "url": "https://picsum.photos/200/960"
         }
-      ]
+      ],
+      "type": "PAP"
     },
     {
       "id": 9,
@@ -155,7 +163,8 @@
           "id": 19,
           "url": "https://picsum.photos/200/980"
         }
-      ]
+      ],
+      "type": "histopathology"
     },
     {
       "id": 10,
@@ -172,7 +181,8 @@
           "id": 21,
           "url": "https://picsum.photos/200/900"
         }
-      ]
+      ],
+      "type": "cithology"
     }
   ]
 }

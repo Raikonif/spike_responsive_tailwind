@@ -18,6 +18,17 @@ const getArticles = async (): Promise<article[]> => {
     return response.json() || []
 }
 
+const getArticle = async (id: number): Promise<article> => {
+    const response = await fetch(BASE_URL + `articles/${id}`)
+    return response.json() || []
+}
+
+const getArticlesFiltered = async (type: string): Promise<article[]> => {
+    const articles = getArticles()
+    const filteredArticles = (await articles).filter(article => article.date === type)
+    return filteredArticles
+}
+
 export {
     getArticles
 }

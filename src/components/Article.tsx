@@ -1,10 +1,17 @@
 import { images, article } from "../service";
 
-function Article({ title, author, date, content, images }: article) {
-  const slicedContent = content.slice(0, 100) + " . . . ";
+function Article({ id, title, author, date, content, images }: article) {
+  const slicedContent = content.slice(0, 90) + " . . . ";
   const image = images[0];
+  const openArticle = () => {
+    const articleUrl = `/article/${encodeURIComponent(id)}`;
+    window.open(articleUrl, "_blank");
+  };
   return (
-    <article className="flex flex-col h-1/8 w-full">
+    <article
+      className="flex flex-col w-full border rounded-md my-4 shadow-xl p-4 pt-7 bg-white"
+      onClick={openArticle}
+    >
       <h2 className="font-bold font-[Arial]">{title}</h2>
       <p className="text-slate-400 font-bold font-[Arial]">{date}</p>
       <h3 className="font-bold font-[Arial] text-violet-600">{author}</h3>
@@ -13,7 +20,7 @@ function Article({ title, author, date, content, images }: article) {
       <img
         src={image.url}
         alt={String(image.id)}
-        className="w-full max-h-[200px]"
+        className="w-full max-h-[200px] border-2 rounded-md"
       />
       {/* ))} */}
     </article>
