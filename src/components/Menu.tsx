@@ -11,8 +11,8 @@ function Menu({ selected, setSelected }: MenuProps) {
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex bg-violet-600 py-2 md:px-10 px-7 sm:justify-between">
-        <div className="font-bold text-2xl cursor-pointer flex items-center justify-center font-[Arial] text-gray-800">
+      <div className="md:flex bg-violet-600 py-2 md:px-10 px-2 sm:justify-between">
+        <div className="font-bold text-2xl cursor-pointer flex items-center font-[Arial] text-gray-800">
           <GiMicroscope className="text-white mx-2" size={40} />
           <h3 className="text-white">PANDY BLOG</h3>
         </div>

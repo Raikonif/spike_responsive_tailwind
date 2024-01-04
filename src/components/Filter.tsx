@@ -17,20 +17,23 @@ function Filter({ selected, setSelected }: FilterProps) {
         onChange={handleChange}
         value={selected}
       >
-        <option value={"ALL"} className="text-white font-[Arial] font-semibold">
+        <option
+          value={"ALL"}
+          className="text-violet-600 font-[Arial] font-semibold text-sm w-auto"
+        >
           ALL
         </option>
         <option
-          value={"PAPS"}
+          value={"PAP"}
           className="text-violet-600 font-[Arial] font-semibold text-sm w-auto"
         >
           PAPS
         </option>
         <option
-          value={"CYTOPATHOLOGY"}
+          value={"CITHOLOGY"}
           className="text-violet-600 font-[Arial] font-semibold text-sm w-auto"
         >
-          CYTOPATHOLOGY
+          CITHOLOGY
         </option>
         <option
           value={"HISTOPATHOLOGY"}
