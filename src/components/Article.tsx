@@ -1,6 +1,6 @@
 import { images, article } from "../service";
 
-function Article({ id, title, author, date, content, images }: article) {
+function Article({ id, title, author, date, content, images, type }: article) {
   const slicedContent = content.slice(0, 90) + " . . . ";
   const image = images[0];
   const openArticle = () => {

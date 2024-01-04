@@ -3,7 +3,7 @@ function Search() {
   return (
     <div className="flex items-center justify-between w-4/5 sm:w-full sm:mt-5 mx-2 rounded-lg bg-violet-600">
       <input
-        className="rounded-l-md p-3 w-full h-full font-[Arial] focus:outline-none"
+        className="rounded-l-md p-3 w-full h-full font-[Arial] focus:outline-none border"
         type="text"
         placeholder="Search"
         aria-autocomplete="none"

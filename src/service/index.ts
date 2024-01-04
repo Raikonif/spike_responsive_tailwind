@@ -8,6 +8,7 @@ export interface article {
     date: string
     content: string
     images: images[]
+    type: string
 }
 export interface images {
     id: number

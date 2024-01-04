@@ -1,6 +1,9 @@
-import { useState } from "react";
-function Filter() {
-  const [selected, setSelected] = useState<string>("ALL");
+interface FilterProps {
+  selected: string;
+  setSelected: (value: string) => void;
+}
+
+function Filter({ selected, setSelected }: FilterProps) {
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelected(event.target.value);
   };
@@ -10,7 +13,7 @@ function Filter() {
       <select
         name="study"
         id="study-select"
-        className="w-full bg-violet-600 p-3 md:px-10 grid grid-cols-3 rounded-lg justify-between items-center text-white font-[Arial] font-semibold text-sm"
+        className=" border w-full p-3 md:px-10 grid grid-cols-3 rounded-lg justify-between items-center text-violet-600 font-[Arial] font-semibold text-sm"
         onChange={handleChange}
         value={selected}
       >
@@ -19,19 +22,19 @@ function Filter() {
         </option>
         <option
           value={"PAPS"}
-          className="text-white font-[Arial] font-semibold text-sm w-auto"
+          className="text-violet-600 font-[Arial] font-semibold text-sm w-auto"
         >
           PAPS
         </option>
         <option
           value={"CYTOPATHOLOGY"}
-          className="text-white font-[Arial] font-semibold text-sm w-auto"
+          className="text-violet-600 font-[Arial] font-semibold text-sm w-auto"
         >
           CYTOPATHOLOGY
         </option>
         <option
           value={"HISTOPATHOLOGY"}
-          className="text-white font-[Arial] font-semibold text-sm w-auto"
+          className="text-violet-600 font-[Arial] font-semibold text-sm w-auto"
         >
           HISTOPATHOLOGY
         </option>

@@ -1,7 +1,12 @@
 import { GiMicroscope } from "react-icons/gi";
 import { useState } from "react";
-function Menu() {
-  const [selected, setSelected] = useState<string>("HOME");
+
+interface MenuProps {
+  selected: string;
+  setSelected: (value: string) => void;
+}
+function Menu({ selected, setSelected }: MenuProps) {
+  // const [selected, setSelected] = useState<string>("HOME");
   const options: string[] = ["HOME", "ABOUT", "BLOG"];
 
   return (

@@ -2,21 +2,20 @@ import ArticleList from "./components/ArticleList";
 import Filter from "./components/Filter";
 import Menu from "./components/Menu";
 import Search from "./components/Search";
+import { useState } from "react";
+import Home from "./pages/Home";
 
 function App() {
-  const retrieveID = 0;
+  const [changePage, setChangePage] = useState<string>("HOME");
+
   return (
     <>
       <div className="bg-slate-100 min-h-screen">
-        <Menu />
+        <Menu selected={changePage} setSelected={setChangePage} />
         <div className="w-full pt-32 sm:pt-20 items-center justify-center p-1">
-          <div className="container mx-auto flex flex-col">
-            <div className="flex flex-col w-full sm:flex-row justify-center items-center">
-              <Filter />
-              <Search />
-            </div>
-            <ArticleList />
-          </div>
+          {changePage == "HOME" && <Home />}
+          {changePage == "BLOG" && <ArticleList />}
+          {changePage == "ABOUT" && <ArticleList />}
         </div>
       </div>
     </>
