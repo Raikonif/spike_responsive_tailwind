@@ -1,9 +1,8 @@
-import ArticleList from "./components/ArticleList";
-import Filter from "./components/Filter";
 import Menu from "./components/Menu";
-import Search from "./components/Search";
 import { useState } from "react";
 import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import About from "./pages/About";
 
 function App() {
   const [changePage, setChangePage] = useState<string>("HOME");
@@ -14,8 +13,8 @@ function App() {
         <Menu selected={changePage} setSelected={setChangePage} />
         <div className="w-full pt-32 sm:pt-20 items-center justify-center p-1">
           {changePage == "HOME" && <Home />}
-          {changePage == "BLOG" && <ArticleList />}
-          {changePage == "ABOUT" && <ArticleList />}
+          {changePage == "BLOG" && <Blog />}
+          {changePage == "ABOUT" && <About />}
         </div>
       </div>
     </>
