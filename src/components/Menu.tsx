@@ -1,13 +1,13 @@
 import { GiMicroscope } from "react-icons/gi";
-import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface MenuProps {
   selected: string;
   setSelected: (value: string) => void;
 }
 function Menu({ selected, setSelected }: MenuProps) {
-  // const [selected, setSelected] = useState<string>("HOME");
-  const options: string[] = ["HOME", "ABOUT", "BLOG"];
+  const { t } = useTranslation();
+  const options: string[] = ["HOME", "BLOG", "ABOUT"];
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
@@ -29,7 +29,7 @@ function Menu({ selected, setSelected }: MenuProps) {
                 setSelected(option);
               }}
             >
-              {option}
+              {t(option)}
             </li>
           ))}
         </ul>

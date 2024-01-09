@@ -3,6 +3,7 @@ import { useState } from "react";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import About from "./pages/About";
+import "./i18n";
 
 function App() {
   const [changePage, setChangePage] = useState<string>("HOME");

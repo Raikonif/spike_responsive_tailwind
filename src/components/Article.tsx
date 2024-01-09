@@ -1,7 +1,7 @@
-import { images, article } from "../service";
+import { article } from "../service";
 
 function Article({ id, title, author, date, content, images, type }: article) {
-  const slicedContent = content.slice(0, 90) + " . . . ";
+  const slicedContent = content.slice(0, 80) + " ...";
   const image = images[0];
   const openArticle = () => {
     const articleUrl = `/article/${encodeURIComponent(id)}`;
@@ -16,13 +16,11 @@ function Article({ id, title, author, date, content, images, type }: article) {
       <p className="text-slate-400 font-bold font-[Arial]">{date}</p>
       <h3 className="font-bold font-[Arial] text-violet-600">{author}</h3>
       <p className="font-[Arial] m-2">{slicedContent}</p>
-      {/* {images.map((image: images) => ( */}
       <img
         src={image.url}
         alt={String(image.id)}
         className="w-full max-h-[200px] border-2 rounded-md"
       />
-      {/* ))} */}
     </article>
   );
 }

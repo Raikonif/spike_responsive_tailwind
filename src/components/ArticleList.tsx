@@ -27,7 +27,7 @@ function ArticleList({ articles }: ArticleListProps) {
       {articlesLength === 0 && (
         <div className="w-full justify-center items-center flex mt-10">
           <h1 className="text-center text-2xl h-full w-full">
-            No articles found
+            No se encontraron artículos
           </h1>
         </div>
       )}
