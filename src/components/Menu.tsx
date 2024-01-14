@@ -10,7 +10,7 @@ function Menu({ selected, setSelected }: MenuProps) {
   const options: string[] = ["HOME", "BLOG", "ABOUT"];
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full fixed top-0 left-0 z-10">
       <div className="md:flex bg-violet-600 py-2 md:px-10 px-2 sm:justify-between">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Arial] text-gray-800">
           <GiMicroscope className="text-white mx-2" size={40} />
