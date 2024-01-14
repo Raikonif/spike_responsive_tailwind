@@ -12,7 +12,7 @@ function Article({ id, title, author, date, content, images, type }: article) {
       className="flex flex-col w-full border rounded-md my-4 shadow-xl p-4 pt-7 bg-white cursor-pointer"
       onClick={openArticle}
     >
-      <h2 className="font-bold font-[Arial]">{title}</h2>
+      <h2 className="font-bold">{title}</h2>
       <p className="text-slate-400 font-bold font-[Arial]">{date}</p>
       <h3 className="font-bold font-[Arial] text-violet-600">{author}</h3>
       <p className="font-[Arial] m-2">{slicedContent}</p>
