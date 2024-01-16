@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-slate-100 min-h-screen">
+      <div className="min-h-screen">
         <Menu selected={changePage} setSelected={setChangePage} />
         <div className="w-full pt-32 sm:pt-20 items-center justify-center p-1">
           {changePage == "HOME" && <Home />}

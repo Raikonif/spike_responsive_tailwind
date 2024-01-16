@@ -24,7 +24,7 @@ function Menu({ selected, setSelected }: MenuProps) {
                 selected === option
                   ? "text-white underline underline-offset-4"
                   : "text-slate-300"
-              } cursor-pointer font-semibold items-center justify-center m-1 p-2 text-md  active:text-fuchsia-600`}
+              } cursor-pointer font-semibold items-center justify-center m-1 p-2 text-md active:text-fuchsia-600`}
               onClick={() => {
                 setSelected(option);
               }}

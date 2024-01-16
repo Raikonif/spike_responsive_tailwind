@@ -27,7 +27,7 @@ function Blog() {
         </button>
         <h6 className="px-2 text-slate-400">{">"}</h6>
         <button className="rounded-md text-sm text-slate-400 px-2 py-1">
-          Blog de Articulos
+          {t("ARTICLES_BLOG")}
         </button>
       </div>
       <div className="flex items-center mt-3">
